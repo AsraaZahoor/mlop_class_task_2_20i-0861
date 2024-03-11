@@ -1,4 +1,4 @@
-from main import StudentsInMLOps
+safrom main import StudentsInMLOps
 
 def test_enrollStudents():
     obj = StudentsInMLOps()
