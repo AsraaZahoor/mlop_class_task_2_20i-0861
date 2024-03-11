@@ -30,7 +30,7 @@ pipeline {
                     if (env.BRANCH_NAME == 'main') {
                         // Deploy to production
                         echo 'Deploying to production...'
-                        // Add your deployment commands here
+                       
                     } else {
                         // Deploy to staging or any other environment
                         echo 'Deploying to staging...'
