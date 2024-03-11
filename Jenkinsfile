@@ -27,7 +27,7 @@ pipeline {
             steps {
                 // Dummy deployment, you can customize this based on your actual deployment process
                 script {
-                    if (env.BRANCH_NAME == 'master') {
+                    if (env.BRANCH_NAME == 'main') {
                         // Deploy to production
                         echo 'Deploying to production...'
                         // Add your deployment commands here
