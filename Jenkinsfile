@@ -25,7 +25,7 @@ pipeline {
         
         stage('Deployment') {
             steps {
-                // Dummy deployment, you can customize this based on your actual deployment process
+                // Dummy deployment
                 script {
                     if (env.BRANCH_NAME == 'main') {
                         // Deploy to production
